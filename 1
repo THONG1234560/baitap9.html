@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>9-1.html</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            width: 100%;
+            background-image: linear-gradient(#333333, #090707);
+            height: 5347px;
+        }
+        .header {
+            display: flex;
+            justify-content: space-around;
+        }
+        .header .header-left {
+            margin-top: 24px;
+            width: 165px;
+            height: 36.63px;
+            font-weight: 900;
+            color: #ffffff;
+            display: flex;
+            justify-items: center;
+            
+        }
+        .header .header-left .logo {
+            font-size: 30px;
+        }
+        .header .header-right {
+            padding-top: 24px;
+        }
+        .header .header-right .feature{
+            margin-top: 35px;
+            width: 56px;
+            height: 17px;
+            display: inline-block;
+            font-size: 14px;
+            color: #ffffff;
+            margin-right: 27px;
+            font-weight: 500;
+        }
+        .header .header-right .Pricing {
+            margin-top: 35px;
+            width: 44px;
+            height: 17px;
+            display: inline-block;
+            font-size: 14px;
+            color: #ffffff;
+            margin-right: 27px;
+            font-weight: 500;
+        }
+        .header .header-right .Learn {
+            margin-top: 35px;
+            width: 36px;
+            height: 17px;
+            display: inline-block;
+            font-size: 14px;
+            color: #ffffff;
+            margin-right: 46px;
+            font-weight: 500;
+        }
+        .header .header-right .Join {
+            line-height: 50px;
+            width: 204px;
+            height: 50px;
+            margin-top: 19px;
+            border-radius: 5px;
+            border: 1.5px solid #ffffff; 
+            color: #ffffff;
+            background-image: linear-gradient(#333333, #090707); /
+            font-size: 14px; 
+            font-weight: 500;
+            justify-items: center;
+        }
+
+        .banner {
+            justify-items: center;
+        }
+        .banner .banner1 {
+            text-align: center;
+            justify-items: center;
+             width: 1000px;
+            height: 156px;
+            margin-top: 120.37px;
+            font-weight: 700;
+            font-size: 65px;
+            color: rgba(255, 255, 255, 1);
+        }
+        .banner .banner2 {
+            text-align: center;
+            justify-items: center;
+             width: 900x;
+            height: 22px;
+            margin-top:47px;
+            font-weight: 400;
+            font-size: 22px;
+            color:rgba(229, 229, 229, 1);
+        }
+        button {
+            justify-items: center;
+            display: inline-block;
+            width: 204px;
+            height: 50px;
+            margin-top: 56px;
+            margin-right: 23px; 
+            border-radius: 5px;
+        }
+        .button1 {
+            background-color: rgba(55, 117, 237, 1);
+        }
+        .button2 {
+            background-color: black;
+            border: 1.5px solid rgba(255, 255, 255, 1);
+            color: rgba(255, 255, 255, 1);
+
+        }
+        .bannerimg {
+            margin-top: 54px;
+            justify-items: center;
+        }
+        .main1  {
+            margin-top: 172px;
+            color: rgba(255, 255, 255, 1);
+            font-weight: 700;
+            font-size: 40px;
+            height: 48px;
+            text-align: center;
+        }
+        .main2{
+            margin-top: 19px;
+            height: 28px;
+            font-weight: 400;
+            font-size: 22px;
+            text-align: center;
+            height: 26px;
+            color: rgba(229, 229, 229, 1);
+        }
+        .block {
+            margin-top: 80px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+        .main3 {
+                
+                display: inline-block;
+                background-color: rgba(201, 100, 8, 1);
+                width: 385px;
+                height: 277px;
+                margin-right: 22px;
+        }
+        .main3 .logo1{
+            margin-right: 246px;
+        }
+        .main3 .logo3{
+                margin-left: 157px;
+                margin-top:-9px;
+                justify-items: center;
+
+        }
+        .main3 .title1 {
+            font-size: 24px; 
+            height: 29px; 
+            margin-top: 24px; 
+            text-align: center; 
+            color: rgba(255, 255, 255, 1);
+        }
+        .main3 .content1 {
+            color: rgba(255, 255, 255, 1);
+            text-align: center;
+            height: 50px;
+            width: 377px;
+            font-size: 18px;
+            font-weight: 300;
+            margin-top: 14px;
+        }
+        .main4{
+            background-color: purple;
+            display: inline-block;
+            width: 385px;
+            height: 277px;
+            margin-right: 22px;
+        }
+        
+        .main4 .title2{
+            font-size: 24px; 
+            height: 29px; 
+            margin-top: 24px; 
+            text-align: center; 
+            color: rgba(255, 255, 255, 1);
+        }
+        .main4 .content2{
+            color: rgba(255, 255, 255, 1);
+            text-align: center;
+            height: 50px;
+            width: 377px;
+            font-size: 18px;
+            font-weight: 300;
+            margin-top: 14px;
+        }
+        .main4 .logo4 {
+            margin-left: 157px;
+            margin-top:40px;
+            justify-items: center;
+
+        }
+        .main5 {
+    background-color: purple;
+    display: inline-block;
+    width: 385px;
+    height: 277px;
+}
+
+.main5 .title3 {
+    font-size: 24px; 
+    height: 29px; 
+    margin-top: 24px; 
+    text-align: center; 
+    color: rgba(255, 255, 255, 1);
+}
+
+.main5 .content3 {
+    color: rgba(255, 255, 255, 1);
+    text-align: center;
+    height: 50px;
+    width: 377px;
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 14px;
+}
+
+.main5 .logo5 {
+    margin-left: 157px;
+    margin-top: 40px;
+    justify-items: center;
+}
+ 
+
+
+
+
+
+        .footer {
+
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header-left">
+                <img src="./img/1.png" width="33px" height="33px" alt="" >
+                <span class="logo">ClubWeb</span>
+            </div>
+            <div class="header-right">
+                <span class="feature">Feature</span>
+                <span class="Pricing">Pricing</span>
+                <span class="Learn">Learn</span>
+                <button class="Join">Join Clubwebers</button>
+            </div>
+        </div>
+        <div class="banner">
+            <div class="banner1">Get a customized <span style="color: blue;">website</span> for your business and brand.</div>
+            <div class="banner2">You need a brand yes. You need a website. Get someone to create. Relax and Chill</div>
+            <button class="button1">Get started</button>
+            <button class="button2">Get featured</button>
+            <div class="bannerimg"><img src="https://s3-alpha-sig.figma.com/img/98a2/3692/8e53ba3d2a2baf626b8b89bc8b814913?Expires=1742774400&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=FIZYU93k3EG1z~LQaF5IxZUoSuX1MemwJRBGt~1WRkDEELuQGMgyAABo8vpeVw~4H2QnPB90lclpT9MbHnGy0W5NinCvU669nZhNVORH90jSy4tf~NBM8IFzVSfDoSv3kVRbnCD-xYj38HidwlPJsgb31oN-HGbcd-9QKFkjk3DBfS7Xkph1eqqTgEfBnJMroJ7siTEbUSnpyILfdL8rEKFe6dCrxFtHwrI8IlRNMYRWxWmtRdjZVGFzLSVxuOVJp2hgB7TYF2arAkjUyh257DM9aGqBipvLIWhuL4hnKw-KGBIc85zJVysx797FZKBfI1Svw9SQIHdePcM4TqKUvw__" width="1200px" height="514px"> </div> 
+        </div>
+        <div class="main">
+            <div class="main1">Let us build a website with your ideas</div>
+            <div class="main2">Get website developers to create your  marketing website and portfolio faster</div>
+            <div class="block">
+            <div class="main3">
+                <div class="E-commerce">
+                <img src="./img/3.png" width="66.5" height="64.16" class="logo1">
+                <img src="./img/3.png" width="66.5" height="64.16" class="logo2">
+                <div class="logo3"><img src="./img/2.png" width="62" height="62"></div>
+                <div class="title1">E-commerce website</div>
+                <div class="content1">Engage a developer to create a customized e-commerce site at low cost </div>
+                </div>
+            </div>
+            <div class="main4">
+                <div class="E-commerce">
+                <div class="logo4"><img src="./img/4.png" width="63" height="62"></div>
+                <div class="title2">Portfolio website</div>
+                <div class="content2">A portfolio website is a profile website by nature, so this is the place to get a deveoper </div>
+                </div>
+            </div>
+            <div class="main5">
+                <div class="E-commerce">
+                    <div class="logo5"><img src="./img/5.png" width="62" height="62" alt=""></div>
+                    <div class="title3">E-commerce website</div>
+                    <div class="content3">Engage a developer to create a customized e-commerce site at low cost</div>
+                </div>
+            </div>
+        </div>
+        <div class="main6"></div>
+        </div>
+        <div class="footer">
+            <!-- phần chân trang -->
+        </div>
+    </div>
+</body>
+</html>
